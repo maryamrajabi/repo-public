@@ -1,0 +1,15 @@
+{
+  "data": [
+    {
+      "id": "1000",
+      "name": "ICMP_Profile",
+      "icmpStrictAnomalies": 1,
+      "ICMPTypeCodeAnomaly": {
+        "icmpTypeCodeAnomaly": true
+      },
+      "ICMPStrictAnomalies": {
+        "icmpTypeCodeACL": false
+      }
+    }
+  ]
+}

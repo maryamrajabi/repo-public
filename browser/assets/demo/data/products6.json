@@ -1,0 +1,128 @@
+{
+	"data": [
+		{
+			"id": "1000",
+			"operatingMode": "Detection",
+			"name": "default",
+      "protectionProfiles": [
+        {
+          "status": "TCP",
+          "label": "TCP_WEB"
+        },
+        {
+          "status": "IP",
+          "label": "IP_Profile"
+        },
+        {
+          "status": "ICMP",
+          "label": "ICMP_Profile"
+        }
+      ],
+			"status": 1
+		},
+		{
+			"id": "1001",
+			"operatingMode": "Prevention",
+      "name": "DNS_Servers",
+      "protectionProfiles": [
+        {
+          "status": "DNS",
+          "label": "DNS_Firewall"
+        },
+        {
+          "status": "TCP",
+          "label": "TCP_Firewall"
+        },
+        {
+          "status": "IP",
+          "label": "IP_Profile"
+        },
+        {
+          "status": "ICMP",
+          "label": "ICMP_Profile"
+        },
+        {
+          "status": "DTLS",
+          "label": "DTLS_Profile"
+        },
+        {
+          "status": "HTTP",
+          "label": "HTTP_FW"
+        },
+        {
+          "status": "SSL_TLS",
+          "label": "SSL_FW"
+        },
+        {
+          "status": "QUIC",
+          "label": "QUIC_Profile"
+        },
+        {
+          "status": "Video_Conf",
+          "label": "Zoom"
+        }
+      ],
+			"status": 1
+		},
+		{
+			"id": "1002",
+			"operatingMode": "Detection",
+      "name": "Firewall",
+      "protectionProfiles": [
+        {
+          "status": "DNS",
+          "label": "DNS_Firewall"
+        },
+        {
+          "status": "TCP",
+          "label": "TCP_Firewall"
+        },
+        {
+          "status": "IP",
+          "label": "IP_Profile"
+        },
+        {
+          "status": "ICMP",
+          "label": "ICMP_Profile"
+        },
+        {
+          "status": "DTLS",
+          "label": "DTLS_Profile"
+        },
+        {
+          "status": "HTTP",
+          "label": "HTTP_FW"
+        },
+        {
+          "status": "SSL_TLS",
+          "label": "SSL_FW"
+        },
+        {
+          "status": "QUIC",
+          "label": "QUIC_Profile"
+        }
+      ],
+			"status": 0
+		},
+    {
+      "id": "1003",
+      "operatingMode": "Prevention",
+      "name": "Web_Servers",
+      "protectionProfiles": [
+        {
+          "status": "TCP",
+          "label": "TCP_WEB"
+        },
+        {
+          "status": "IP",
+          "label": "IP_Profile"
+        },
+        {
+          "status": "ICMP",
+          "label": "ICMP_Profile"
+        }
+      ],
+      "status": 0
+    }
+	]
+}

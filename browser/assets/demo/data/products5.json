@@ -1,0 +1,36 @@
+{
+  "data": [
+    {
+      "id": "1000",
+      "name": "Any-IPv4",
+      "ipAddress": "0.0.0.0/0",
+      "operatingMode": "Detection",
+      "policyName": "default",
+      "policyStatus": 1
+    },
+    {
+      "id": "1001",
+      "name": "Any-IPv6",
+      "ipAddress": "0.0.0.0/32",
+      "operatingMode": "Prevention",
+      "policyName": "default",
+      "policyStatus": 1
+    },
+    {
+      "id": "1002",
+      "name": "Public_NAT",
+      "ipAddress": "1.1.1.0/29",
+      "operatingMode": "Detection",
+      "policyName": "Firewall",
+      "policyStatus": 0
+    },
+    {
+      "id": "1003",
+      "name": "WebServers_29",
+      "ipAddress": "17.1.1.0/29",
+      "operatingMode": "Prevention",
+      "policyName": "Web_Servers",
+      "policyStatus": 0
+    }
+  ]
+}

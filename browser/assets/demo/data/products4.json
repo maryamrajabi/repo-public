@@ -1,0 +1,22 @@
+{
+	"data": [
+		{
+			"id": "1000",
+			"name": "DNS_Firewall",
+			"floodMitigationMode": "TC Equal One/TC Equal One",
+			"matchResponseWithQueries": 1
+		},
+		{
+			"id": "1001",
+			"name": "DNS_Web",
+      "floodMitigationMode": "TC Equal One/TC Equal One",
+			"matchResponseWithQueries": 1
+		},
+		{
+			"id": "1002",
+			"name": "DNS-DNS",
+      "floodMitigationMode": "TC Equal One/TC Equal One",
+			"matchResponseWithQueries": 0
+		}
+	]
+}

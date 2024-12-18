@@ -1,0 +1,21 @@
+{
+	"data": [
+		{
+			"id": "1000",
+			"name": "admin",
+      "profile": [
+        "super_admin_prof"
+      ],
+			"trustedHosts": "0.0.0.0/0 ::/0"
+		},
+		{
+			"id": "1001",
+			"operatingMode": "Prevention",
+      "name": "demo",
+      "profile": [
+        "demo_read_only"
+      ],
+      "trustedHosts": "0.0.0.0/0 ::/0"
+		}
+	]
+}

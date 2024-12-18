@@ -1,0 +1,25 @@
+{
+	"data": [
+		{
+			"id": "1000",
+			"name": "TCP_Firewall",
+			"synFloodMitigationMode": "Syn Cookie",
+			"strictAnomalies": 1,
+			"slowConnectionType": "None"
+		},
+		{
+			"id": "1001",
+			"name": "TCP_Web",
+			"synFloodMitigationMode": "Syn Cookie",
+			"strictAnomalies": 1,
+			"slowConnectionType": "None"
+		},
+		{
+			"id": "1002",
+			"name": "TCP_DNS",
+			"synFloodMitigationMode": "Syn Cookie",
+			"strictAnomalies": 1,
+			"slowConnectionType": "None"
+		}
+	]
+}

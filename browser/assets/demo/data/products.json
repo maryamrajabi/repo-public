@@ -1,0 +1,48 @@
+{
+  "data": [
+    {
+      "id": "1000",
+      "name": "Ip_Profile",
+      "ipReputationCategories": "DDoS, Anonymous Proxies, Phishing, Spam, Tor",
+      "IPStrictAnomalies": {
+        "ipStrict": true
+      },
+      "ipFragmentCheck": "N/A",
+      "IPPrivateCheck": {
+        "ipPrivateCheck": true
+      },
+      "IPMulticastCheck": {
+        "ipMulticastCheck": false
+      }
+    },
+    {
+      "id": "1001",
+      "name": "Ip_Profile_DNS",
+      "ipReputationCategories": "N/A",
+      "IPStrictAnomalies": {
+        "ipStrict": false
+      },
+      "ipFragmentCheck": "Other Protocol Fragment, TCP Fragment",
+      "IPPrivateCheck": {
+        "ipPrivateCheck": true
+      },
+      "IPMulticastCheck": {
+        "ipMulticastCheck": true
+      }    },
+    {
+      "id": "1002",
+      "name": "Policy-3",
+      "ipReputationCategories": "N/A",
+      "IPStrictAnomalies": {
+        "ipStrict": false
+      },
+      "ipFragmentCheck": "Other Protocol Fragment, TCP Fragment",
+      "IPPrivateCheck": {
+        "ipPrivateCheck": false
+      },
+      "IPMulticastCheck": {
+        "ipMulticastCheck": true
+      }
+    }
+  ]
+}

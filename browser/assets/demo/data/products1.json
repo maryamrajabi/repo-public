@@ -1,0 +1,20 @@
+{
+	"data": [
+		{
+			"id": "1000",
+			"name": "ntp",
+      "DataLengthAnomalyCheck": {
+      "dataLengthAnomalyCheck": true
+    },
+      "ControlHeaderAnomaliesCheck": {
+      "controlHeaderAnomaliesCheck": false
+    },
+    "StratumAnomalyCheck": {
+      "stratumAnomalyCheck": false
+    },
+      "VersionAnomalyCheck": {
+      "versionAnomalyCheck": false
+    }
+		}
+	]
+}
