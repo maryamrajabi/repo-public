@@ -1,0 +1,1 @@
+import{P as i,eb as n,p as t}from "./chunk-GCPYJTBI.js";var g=(()=>{class e{static \u0275fac=function(s){return new(s||e)};static \u0275mod=i({type:e});static \u0275inj=t({imports:[n]})}return e})();export{g as a};
